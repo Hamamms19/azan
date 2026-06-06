@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#1a1a2e">
+
+    <TextView
+        android:text="🕌 المؤذن الذكي"
+        android:textSize="28sp"
+        android:textColor="#e2b96f"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView android:id="@+id/tvFajr"
+        android:text="الفجر: --:--"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView android:id="@+id/tvDhuhr"
+        android:text="الظهر: --:--"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView android:id="@+id/tvAsr"
+        android:text="العصر: --:--"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView android:id="@+id/tvMaghrib"
+        android:text="المغرب: --:--"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView android:id="@+id/tvIsha"
+        android:text="العشاء: --:--"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
